@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="smoke-pure.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cart-items.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900" rel="stylesheet" />
 </head>
 
@@ -61,11 +61,14 @@
                     </li>
                     <li class="menu__right menu__social"><a href="#"><img src="./img/social.svg" alt=""></a></li>
                     <li class="menu__right menu__cart">
-                        <div class="menu__right-card"><a href="#"><img src="./img/cart.svg" alt=""></a></div>
+                        <div class="menu__right-card">
+                            <a href="card.html"><img src="./img/cart.svg" alt=""><span
+                                    class="menu__card-span"></span></a>
+                            <div class="cart__num" id="cart_num">0</div>
+                        </div>
                     </li>
                 </ul>
             </div>
-
         </nav>
         <div class="main">
             <div class="main__img">
@@ -200,7 +203,7 @@
                 </div>
                 <div class="btn">
                     <button class="products__btn">
-                        Browse All Product
+                        <a href="catalog.html" class="products__btn-catalog">Browse All Product</a>
                     </button>
                 </div>
             </div>
@@ -255,6 +258,14 @@
                 </div>
             </div>
         </article>
+        <article class="cart__items">
+            <div class="container">
+                <div class="items__cart item__cart-hidden">
+                    <h2 class="item__cart-title">Cart Items</h2>
+                    <div class="carts"></div>
+                </div>
+            </div>
+        </article>
         <article class="subscribe">
             <div class="container">
                 <div class="subscribe__wrapp">
@@ -274,7 +285,7 @@
                         <form action="#">
                             <input type="email" placeholder="Enter Your Email">
 
-                            <label for="email">Subscribe</label>
+                            <label class="btn-sa" for="email">Subscribe</label>
                         </form>
                     </div>
                 </div>
@@ -333,9 +344,8 @@
         </article>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
 
-    <script src="./script.js"></script>
-    <script src="index.js"></script>
 </body>
 
 </html>

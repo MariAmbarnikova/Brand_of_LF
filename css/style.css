@@ -10,6 +10,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .container {
@@ -66,6 +67,22 @@ a {
 /* .nav__menu li:hover .burger__menu {
     display: inherit;
 } */
+
+.cart__num {
+    position: absolute;
+    background-color: #F16D7F;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    top: 17px;
+    right: 340px;
+}
 
 .dropmenu {
     display: flex;
@@ -254,6 +271,8 @@ span {
 .card-img__link {
     display: block;
     position: relative;
+    border: none;
+    cursor: pointer;
 }
 
 .card-img__link:after {
@@ -265,7 +284,7 @@ span {
     bottom: 0;
     background: rgba(58, 56, 56, 0.86);
     opacity: 0;
-    background-image: url(./img/Add\ to\ cart.svg);
+    background-image: url(../img/Add\ to\ cart.svg);
     background-repeat: no-repeat;
     background-position: center
 }
@@ -383,8 +402,28 @@ span {
     color: #FBFBFB;
 }
 
+.items__cart {
+    padding-top: 96px;
+    padding-bottom: 35px;
+}
+
+.item__cart-hidden {
+    display: none;
+}
+
+.item__cart-title {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
 .subscribe {
-    background-image: url(./img/photo\ subscribe.jpg);
+    background-image: url(../img/photo\ subscribe.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
