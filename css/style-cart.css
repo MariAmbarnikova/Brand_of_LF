@@ -1,0 +1,132 @@
+.cart__inner {
+    background-color: #F8F3F4;
+
+}
+
+.shopping__cart-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__title {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 59px;
+    padding-bottom: 60px;
+}
+
+.cart-buy__btn {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.cart-btn {
+    color: #000;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 17px 40px;
+    background: none;
+    border: 1px solid #A4A4A4;
+}
+
+.shopping__cart-form {
+    width: 360px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 342px;
+}
+
+.shopping__cart-title {
+    color: #222;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 20px;
+    padding-top: 113px;
+}
+
+input {
+    padding-top: 13px;
+    padding-left: 17px;
+    padding-bottom: 16px;
+    width: 360px;
+}
+
+input:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.shopping__cart-adress {
+    flex-direction: column;
+}
+
+.cart-form__btn {
+    color: #4A4A4A;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 11px 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    width: 105px;
+    margin-bottom: 57px;
+}
+
+.cart-form__price {
+    background-color: #F5F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 360px;
+}
+
+.sub__total {
+    color: #4A4A4A;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 12px;
+    padding-top: 39px;
+    padding-right: 34px;
+
+}
+
+.grand__total {
+    color: #222;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 21px;
+    padding-right: 37px;
+}
+
+.form__price-btn {
+    background-color: #F16D7F;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border: none;
+    padding: 15px 42px;
+    margin-right: 43px;
+    margin-bottom: 42px;
+}
